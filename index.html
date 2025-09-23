@@ -1,225 +1,527 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luna.AI - Automação Inteligente para WhatsApp Business</title>
-    <meta name="description" content="Soluções de chatbot whitelabel para empresas que buscam escalar a comunicação digital com eficiência e segurança.">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header class="header">
-        <nav class="nav">
-            <div class="nav-container">
-                <div class="logo">
-                    <img src="upload/assets_task_01k52c0vdgesgtca69me7cdqwn_1757795179_img_1.webp" alt="Luna.AI" class="logo-img">
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <img src="images/logo.webp" alt="Luna.AI" class="footer-logo">
+                        <p class="footer-description">
+                            Automação inteligente para empresas que querem escalar a comunicação digital com segurança e transparência.
+                        </p>
+                        <div class="footer-badges">
+                            <div class="badge">
+                                <span class="badge-icon">🛡️</span>
+                                <span class="badge-text">LGPD Compliant</span>
+                            </div>
+                            <div class="badge">
+                                <span class="badge-icon">✓</span>
+                                <span class="badge-text">WhatsApp Official</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>Empresa</h4>
+                            <ul>
+                                <li><a href="#about">Sobre</a></li>
+                                <li><a href="#features">Recursos</a></li>
+                                <li><a href="#metrics">Resultados</a></li>
+                                <li><a href="#contact">Contato</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Legal</h4>
+                            <ul>
+                                <li><a href="politica-de-privacidade.html">Política de Privacidade</a></li>
+                                <li><a href="termos-de-servico.html">Termos de Serviço</a></li>
+                                <li><a href="#compliance">Conformidade</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Contato</h4>
+                            <ul>
+                                <li><a href="mailto:aglua.ai@gmail.com">aglua.ai@gmail.com</a></li>
+                                <li><a href="tel:+552123915530">+55 (21) 2391-5530</a></li>
+                                <li><a href="https://wa.me/552123915530" target="_blank">WhatsApp</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="nav-links">
-                    <a href="#sobre" class="nav-link">Sobre</a>
-                    <a href="#servicos" class="nav-link">Serviços</a>
-                    <a href="#contato" class="nav-link">Contato</a>
+                <div class="footer-bottom">
+                    <div class="footer-legal">
+                        <p>
+                            <strong>Luna.AI</strong> – Razão Social: 62.622.763 BRENO CASTELLO DA SILVA RIBEIRO<br>
+                            CNPJ: 62.622.763/0001-21 | Endereço: Rua Ferreira Leite, 172 - Abolição, Rio de Janeiro - RJ, CEP: 20750-000
+                        </p>
+                    </div>
+                    <div class="footer-copyright">
+                        <p>© 2025 Luna.AI. Todos os direitos reservados.</p>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </footer>
 
-    <section class="hero" id="hero">
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/customization-panel.js"></script>
+</body>
+</html><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna.AI - Automação inteligente, sem ruído</title>
+    <meta name="description" content="Framework de chatbots whitelabel para empresas que querem escalar a comunicação digital com segurança e transparência.">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/customization-styles.css">
+    
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Exo+2:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-moon"></div>
+            <div class="loading-text">Luna.AI</div>
+            <div class="loading-progress">
+                <div class="loading-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.webp" alt="Luna.AI" class="logo-img">
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Início</a>
+                <a href="#about" class="nav-link">Sobre</a>
+                <a href="#features" class="nav-link">Recursos</a>
+                <a href="#metrics" class="nav-link">Resultados</a>
+                <a href="#contact" class="nav-link">Contato</a>
+            </div>
+            <div class="nav-cta">
+                <a href="https://wa.me/552123915530" class="btn btn-primary btn-sm" target="_blank">
+                    <span class="btn-icon">💬</span>
+                    Começar Agora
+                </a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
         <div class="hero-background">
-            <img src="upload/assets_task_01k52c3tzeexatnd0zv65b6bre_1757795217_img_0.webp" alt="Luna.AI Background" class="hero-bg-img">
-            <div class="hero-overlay"></div>
+            <img src="images/hero-background.png" alt="Luna.AI Background" class="hero-bg-img">
+            <div class="hero-particles" id="hero-particles"></div>
+            <div class="hero-moon-element">
+                <img src="images/hero-moon-element.png" alt="Luna Moon" class="floating-moon">
+            </div>
         </div>
         <div class="hero-content">
             <div class="container">
-                <h1 class="hero-title">Chatbots que realmente funcionam.</h1>
-                <p class="hero-subtitle">Soluções whitelabel de automação para WhatsApp Business. Tecnologia robusta, implementação rápida, resultados mensuráveis.</p>
-                <div class="hero-buttons">
-                    <a href="https://wa.me/5521239155301" class="btn btn-primary" target="_blank">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Automação inteligente,</span>
+                        <span class="title-line gradient-text">sem ruído.</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Framework de chatbots whitelabel para empresas que querem escalar a comunicação digital com segurança e transparência.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="35">0</span>
+                            <span class="stat-label">% menos tempo de resposta</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="24">0</span>
+                            <span class="stat-label">horas de atendimento</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="99">0</span>
+                            <span class="stat-label">% de disponibilidade</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <a href="https://wa.me/552123915530" class="btn btn-primary btn-lg" target="_blank">
                         <span class="btn-icon">💬</span>
-                        Falar no WhatsApp
+                        Iniciar Conversa no WhatsApp
+                        <span class="btn-arrow">→</span>
                     </a>
-                    <a href="#contato" class="btn btn-secondary">Conhecer a Solução</a>
+                    <a href="#contact" class="btn btn-secondary btn-lg">
+                        <span class="btn-icon">👤</span>
+                        Falar com um Humano
+                    </a>
                 </div>
             </div>
         </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span class="scroll-text">Role para descobrir</span>
+        </div>
     </section>
 
-    <section class="section" id="sobre">
+    <!-- About Section -->
+    <section class="section about-section" id="about">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Tecnologia que escala negócios</h2>
+                <span class="section-tag">Sobre a Luna.AI</span>
+                <h2 class="section-title">
+                    Tecnologia brasileira que <span class="gradient-text">transforma</span> a comunicação empresarial
+                </h2>
+                <p class="section-subtitle">
+                    Desenvolvemos soluções de automação que combinam inteligência artificial com supervisão humana, garantindo eficiência sem perder a personalização.
+                </p>
             </div>
-            <div class="section-content">
-                <p class="section-text">A Luna.AI desenvolve soluções de automação inteligente para WhatsApp Business. Nossa tecnologia permite que empresas implementem chatbots personalizados mantendo total controle sobre marca, dados e experiência do cliente.</p>
-                <p class="section-text">Combinamos IA avançada com supervisão humana, garantindo conversas naturais e eficientes. Cada solução é desenvolvida sob medida, com integração completa aos seus sistemas existentes e conformidade total com LGPD.</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-item">
+                        <div class="about-icon">🚀</div>
+                        <div class="about-info">
+                            <h3>Inovação Nacional</h3>
+                            <p>Empresa brasileira focada em chatbots whitelabel e automação de atendimento para PMEs, com total controle sobre marca e dados.</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-icon">🛡️</div>
+                        <div class="about-info">
+                            <h3>Conformidade Total</h3>
+                            <p>Seguimos rigorosamente as normas LGPD, com transparência total sobre coleta, uso e armazenamento de informações.</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-icon">⚡</div>
+                        <div class="about-info">
+                            <h3>Escalabilidade Inteligente</h3>
+                            <p>Framework que permite implementar soluções escaláveis mantendo qualidade e alinhamento com os valores da sua empresa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-card floating">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <h4>Por que escolher a Luna.AI?</h4>
+                            <ul class="feature-list">
+                                <li>✓ Tecnologia 100% brasileira</li>
+                                <li>✓ Conformidade LGPD garantida</li>
+                                <li>✓ Suporte humano especializado</li>
+                                <li>✓ Integração com WhatsApp Business API</li>
+                                <li>✓ Customização total da marca</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="section section-dark" id="servicos">
+    <!-- Features Section -->
+    <section class="section features-section" id="features">
+        <div class="features-background">
+            <img src="images/features-bg.png" alt="Features Background" class="features-bg-img">
+        </div>
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Soluções completas</h2>
+                <span class="section-tag">O que entregamos</span>
+                <h2 class="section-title">
+                    Soluções <span class="gradient-text">enterprise</span> para sua empresa
+                </h2>
+                <p class="section-subtitle">
+                    Cada recurso foi desenvolvido pensando na escalabilidade e segurança que sua empresa precisa.
+                </p>
             </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">🤖</div>
-                    <h3 class="service-title">Chatbots Personalizados</h3>
-                    <p class="service-description">Desenvolvimento de chatbots sob medida com sua identidade visual. Sistema de estados avançado para conversas complexas.</p>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <img src="images/icon-chatbot.png" alt="Chatbots Whitelabel">
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Chatbots Whitelabel</h3>
+                        <p class="feature-description">
+                            Soluções personalizadas que mantêm sua identidade visual e de marca, com total controle sobre a experiência do usuário.
+                        </p>
+                        <ul class="feature-benefits">
+                            <li>Customização completa da interface</li>
+                            <li>Branding personalizado</li>
+                            <li>Controle total dos dados</li>
+                        </ul>
+                    </div>
+                    <div class="feature-glow"></div>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">🔗</div>
-                    <h3 class="service-title">Integrações Nativas</h3>
-                    <p class="service-description">Conectividade com CRM, ERP e sistemas corporativos. APIs robustas para fluxo de dados em tempo real.</p>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <img src="images/icon-integration.png" alt="Integrações Oficiais">
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Integrações Oficiais</h3>
+                        <p class="feature-description">
+                            Conectamos com as principais plataformas de comunicação e CRM, garantindo fluxo de dados seguro e eficiente.
+                        </p>
+                        <ul class="feature-benefits">
+                            <li>WhatsApp Business API oficial</li>
+                            <li>Integração com CRMs populares</li>
+                            <li>APIs robustas e documentadas</li>
+                        </ul>
+                    </div>
+                    <div class="feature-glow"></div>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">👥</div>
-                    <h3 class="service-title">Automação Híbrida</h3>
-                    <p class="service-description">IA para tarefas repetitivas, humanos para interações complexas. Transição seamless entre bot e atendente.</p>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <img src="images/icon-human-ai.png" alt="Automação + Humano">
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Automação + Humano</h3>
+                        <p class="feature-description">
+                            Combinamos eficiência da IA com supervisão humana, garantindo qualidade e personalização em cada interação.
+                        </p>
+                        <ul class="feature-benefits">
+                            <li>Escalada inteligente para humanos</li>
+                            <li>Supervisão em tempo real</li>
+                            <li>Aprendizado contínuo</li>
+                        </ul>
+                    </div>
+                    <div class="feature-glow"></div>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">🛡️</div>
-                    <h3 class="service-title">Conformidade Total</h3>
-                    <p class="service-description">Arquitetura segura com compliance LGPD. Dados criptografados e armazenamento em território nacional.</p>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <img src="images/icon-security.png" alt="Conformidade & Segurança">
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Conformidade & Segurança</h3>
+                        <p class="feature-description">
+                            Seguimos rigorosamente as normas de proteção de dados e privacidade, com transparência total nos processos.
+                        </p>
+                        <ul class="feature-benefits">
+                            <li>Conformidade LGPD completa</li>
+                            <li>Criptografia end-to-end</li>
+                            <li>Auditoria e logs detalhados</li>
+                        </ul>
+                    </div>
+                    <div class="feature-glow"></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section" id="consentimento">
-        <div class="container">
-            <div class="consent-content">
-                <div class="consent-text">
-                    <h3 class="consent-title">Comunicações e Atualizações</h3>
-                    <p class="consent-description">Receba informações sobre novos recursos, atualizações de produto e conteúdo técnico relevante. Cancele a qualquer momento através dos links nos e-mails ou por contato direto.</p>
-                </div>
-                <div class="consent-checkbox">
-                    <label class="checkbox-label">
-                        <input type="checkbox" class="checkbox-input" id="consent-checkbox">
-                        <span class="checkbox-custom"></span>
-                        <span class="checkbox-text">Aceito receber comunicações técnicas da Luna.AI</span>
-                    </label>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section section-dark" id="contato">
+    <!-- Metrics Section -->
+    <section class="section metrics-section" id="metrics">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Vamos conversar sobre seu projeto</h2>
+                <span class="section-tag">Resultados comprovados</span>
+                <h2 class="section-title">
+                    Números que <span class="gradient-text">impressionam</span>
+                </h2>
+                <p class="section-subtitle">
+                    Veja o impacto real que nossa tecnologia gera para empresas como a sua.
+                </p>
+            </div>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-icon">⚡</div>
+                    <div class="metric-number" data-count="35">0</div>
+                    <div class="metric-label">% redução no tempo de resposta</div>
+                    <div class="metric-description">Respostas instantâneas 24/7</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">📈</div>
+                    <div class="metric-number" data-count="89">0</div>
+                    <div class="metric-label">% de satisfação dos clientes</div>
+                    <div class="metric-description">Experiência personalizada</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">💰</div>
+                    <div class="metric-number" data-count="60">0</div>
+                    <div class="metric-label">% economia em custos operacionais</div>
+                    <div class="metric-description">ROI comprovado</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">🔒</div>
+                    <div class="metric-number" data-count="100">0</div>
+                    <div class="metric-label">% conformidade LGPD</div>
+                    <div class="metric-description">Segurança garantida</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROI Calculator Section -->
+    <section class="section roi-section">
+        <div class="container">
+            <div class="roi-content">
+                <div class="roi-text">
+                    <h2 class="roi-title">
+                        Calcule seu <span class="gradient-text">ROI</span>
+                    </h2>
+                    <p class="roi-subtitle">
+                        Descubra quanto sua empresa pode economizar com a automação inteligente da Luna.AI.
+                    </p>
+                </div>
+                <div class="roi-calculator">
+                    <div class="calculator-card">
+                        <div class="calculator-input">
+                            <label for="monthly-contacts">Contatos mensais</label>
+                            <input type="number" id="monthly-contacts" placeholder="1000" min="100" max="100000">
+                        </div>
+                        <div class="calculator-input">
+                            <label for="avg-response-time">Tempo médio de resposta (min)</label>
+                            <input type="number" id="avg-response-time" placeholder="15" min="1" max="60">
+                        </div>
+                        <div class="calculator-result">
+                            <div class="result-item">
+                                <span class="result-label">Economia mensal estimada:</span>
+                                <span class="result-value" id="monthly-savings">R$ 0</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-label">ROI em 12 meses:</span>
+                                <span class="result-value" id="annual-roi">0%</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" onclick="calculateROI()">
+                            Calcular ROI
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="cta-background">
+            <img src="images/cta-background.png" alt="CTA Background" class="cta-bg-img">
+        </div>
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">
+                    Pronto para <span class="gradient-text">transformar</span> seu atendimento?
+                </h2>
+                <p class="cta-subtitle">
+                    Comece hoje mesmo e veja como a automação inteligente pode revolucionar sua comunicação empresarial.
+                </p>
+                <div class="cta-actions">
+                    <a href="https://wa.me/552123915530" class="btn btn-primary btn-xl" target="_blank">
+                        <span class="btn-icon">💬</span>
+                        Começar Agora no WhatsApp
+                        <span class="btn-arrow">→</span>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-xl">
+                        <span class="btn-icon">📞</span>
+                        Agendar Demonstração
+                    </a>
+                </div>
+                <div class="cta-guarantee">
+                    <span class="guarantee-icon">✓</span>
+                    <span class="guarantee-text">Implementação em até 48 horas • Suporte 24/7 • Garantia de satisfação</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Fale conosco</span>
+                <h2 class="section-title">
+                    Precisa falar com uma <span class="gradient-text">pessoa</span>?
+                </h2>
+                <p class="section-subtitle">
+                    Nossa equipe está pronta para ajudar você a encontrar a melhor solução para sua empresa.
+                </p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
-                    <div class="contact-item">
-                        <h4 class="contact-label">E-mail</h4>
-                        <a href="mailto:aglua.ai@gmail.com" class="contact-link">aglua.ai@gmail.com</a>
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>E-mail</h4>
+                            <a href="mailto:aglua.ai@gmail.com">aglua.ai@gmail.com</a>
+                        </div>
                     </div>
-                    <div class="contact-item">
-                        <h4 class="contact-label">Telefone</h4>
-                        <a href="tel:+552123915530" class="contact-link">+55 (21) 2391-5530</a>
+                    <div class="contact-card">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/552123915530" target="_blank">+55 (21) 2391-5530</a>
+                        </div>
                     </div>
-                    <div class="contact-item">
-                        <h4 class="contact-label">WhatsApp</h4>
-                        <a href="https://wa.me/5521239155301" class="contact-link" target="_blank">+55 (21) 2391-5530</a>
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>Telefone</h4>
+                            <a href="tel:+552123915530">+55 (21) 2391-5530</a>
+                        </div>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <form class="form" name="contact" method="POST" data-netlify="true">
-                        <div class="form-group">
-                            <label for="name" class="form-label">Nome</label>
-                            <input type="text" id="name" name="name" class="form-input" required>
+                <div class="contact-form-container">
+                    <form class="contact-form" name="contact" method="POST" data-netlify="true">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nome completo</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail corporativo</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="company">Empresa</label>
+                                <input type="text" id="company" name="company" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
                         </div>
                         <div class="form-group">
-                            <label for="email" class="form-label">E-mail</label>
-                            <input type="email" id="email" name="email" class="form-input" required>
+                            <label for="message">Como podemos ajudar?</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
                         </div>
-                        <div class="form-group">
-                            <label for="company" class="form-label">Empresa</label>
-                            <input type="text" id="company" name="company" class="form-input">
+                        <div class="form-consent">
+                            <label class="consent-checkbox">
+                                <input type="checkbox" name="consent" required>
+                                <span class="checkmark"></span>
+                                <span class="consent-text">
+                                    Aceito receber comunicações da Luna.AI sobre produtos e serviços. 
+                                    <a href="politica-de-privacidade.html" target="_blank">Política de Privacidade</a>
+                                </span>
+                            </label>
                         </div>
-                        <div class="form-group">
-                            <label for="message" class="form-label">Mensagem</label>
-                            <textarea id="message" name="message" class="form-textarea" rows="4" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-full">Enviar Mensagem</button>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span class="btn-icon">📤</span>
+                            Enviar Mensagem
+                            <span class="btn-loading">
+                                <div class="spinner"></div>
+                            </span>
+                        </button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section" id="avisos">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Conformidade e Transparência</h2>
-            </div>
-            <div class="section-content">
-                <p class="section-text">Operamos exclusivamente dentro da legislação brasileira e internacional. Todos os processos seguem rigorosamente as normas LGPD, com total transparência sobre coleta, processamento e armazenamento de dados.</p>
-                <p class="section-text">Nossa empresa possui registro ativo no CNPJ e atende todas as obrigações fiscais e regulamentares. Mantemos conformidade com as diretrizes do WhatsApp Business API e demais plataformas integradas.</p>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="upload/assets_task_01k52c0vdgesgtca69me7cdqwn_1757795179_img_1.webp" alt="Luna.AI" class="footer-logo-img">
-                </div>
-                <div class="footer-info">
-                    <p class="footer-text">Luna.AI – Razão Social: 62.622.763 BRENO CASTELLO DA SILVA RIBEIRO · CNPJ: 62.622.763/0001-21</p>
-                    <p class="footer-text">Endereço: Rua Ferreira Leite, 172 - Abolição, Rio de Janeiro - RJ, CEP: 20750-000 · E-mail: aglua.ai@gmail.com · Tel.: +55 (21) 2391-5530</p>
-                    <div class="footer-links">
-                        <a href="politica-de-privacidade.html" class="footer-link">Política de Privacidade</a>
-                        <span class="footer-separator">|</span>
-                        <a href="termos-de-servico.html" class="footer-link">Termos de Serviço</a>
-                    </div>
-                    <p class="footer-copyright">© 2025 Luna.AI. Todos os direitos reservados.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-
-        // Fade in animation on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('fade-in');
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.section, .service-card').forEach(el => {
-            observer.observe(el);
-        });
-
-        // Form handling
-        document.querySelector('.form').addEventListener('submit', function(e) {
-            // Netlify handles form submission
-        });
-    </script>
-</body>
-</html>
+    
